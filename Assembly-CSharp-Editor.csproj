@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{90282934-D600-0E22-A410-F560F9A795D1}</ProjectGuid>
+    <ProjectGuid>{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -49,7 +49,7 @@
      <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Programming/Unity/Crazy Arcade/Crazy Arcade/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Programming/Unity/Crazy Arcade/Crazy-Arcade-Unity2D-/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -90,9 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A413EC47-08FF-E057-1752-E3AD15EF0473}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{40869ED3-3C48-9D3B-5F13-0587A1622B84}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{910A4D88-28B3-C3A7-C99A-1C810E9E6E65}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{0A9054EB-1C90-4425-B588-536A01BE7B43}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

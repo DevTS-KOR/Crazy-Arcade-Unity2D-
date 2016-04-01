@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{42330AF3-4C09-FE8C-6B53-4296E4178B9B}") = "Crazy-Arcade-Unity2D-", "Assembly-CSharp-firstpass.csproj", "{40869ED3-3C48-9D3B-5F13-0587A1622B84}"
+EndProject
+Project("{42330AF3-4C09-FE8C-6B53-4296E4178B9B}") = "Crazy-Arcade-Unity2D-", "Assembly-CSharp.csproj", "{0A9054EB-1C90-4425-B588-536A01BE7B43}"
+EndProject
+Project("{42330AF3-4C09-FE8C-6B53-4296E4178B9B}") = "Crazy-Arcade-Unity2D-", "Assembly-CSharp-Editor.csproj", "{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40869ED3-3C48-9D3B-5F13-0587A1622B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40869ED3-3C48-9D3B-5F13-0587A1622B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40869ED3-3C48-9D3B-5F13-0587A1622B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40869ED3-3C48-9D3B-5F13-0587A1622B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9054EB-1C90-4425-B588-536A01BE7B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9054EB-1C90-4425-B588-536A01BE7B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9054EB-1C90-4425-B588-536A01BE7B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9054EB-1C90-4425-B588-536A01BE7B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EB52BD-7083-C5BA-0BBF-35C72E9A0F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
