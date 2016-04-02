@@ -8,4 +8,15 @@ public static class Global
 
     public static bool MaridSelect_1p = false;
     public static bool DaoSelect_1p = false;
+    public static bool BazziSelect_1p = false;
+    public static bool CappiSelect_1p = false;
+
+    public static bool MaridSelect_2p = false;
+    public static bool DaoSelect_2p = false;
+    public static bool BazziSelect_2p = false;
+    public static bool CappiSelect_2p = false;
+
+
+    public static bool FirstPlayer = false;
+	public static bool SecondPlayer = false;
 }

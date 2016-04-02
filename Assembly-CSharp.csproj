@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{0A9054EB-1C90-4425-B588-536A01BE7B43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,44 +45,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasicCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2dCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListenersCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUiCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpaceCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\OldGUIExamplesCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinesBezier.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingAllCS.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingEverything.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingPunch.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingRigidbodyCS.cs" />
-    <Compile Include="Assets\Scripts\Loby\DaoOnOff.cs" />
-    <Compile Include="Assets\Scripts\Loby\Global.cs" />
-    <Compile Include="Assets\Scripts\Loby\MaridOnOff.cs" />
-    <Compile Include="Assets\Scripts\Logo\OpenLogo.cs" />
-    <Compile Include="Assets\Scripts\Opening\Logo.cs" />
-    <Compile Include="Assets\Scripts\Opening\Screen1.cs" />
-    <Compile Include="Assets\Scripts\Opening\The.cs" />
-    <Compile Include="Assets\Scripts\Opening\Touch.cs" />
-    <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
-    <None Include="Assets\LeanTween\ReadMe.txt" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasicCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2dCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListenersCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUiCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpaceCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\OldGUIExamplesCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinesBezier.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingAllCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingEverything.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingPunch.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingRigidbodyCS.cs" />
+     <Compile Include="Assets\Scripts\ForestMap\ChildCharSelect.cs" />
+     <Compile Include="Assets\Scripts\ForestMap\DaoControl.cs" />
+     <Compile Include="Assets\Scripts\ForestMap\MaridControl.cs" />
+     <Compile Include="Assets\Scripts\Loby\BazziOnOff.cs" />
+     <Compile Include="Assets\Scripts\Loby\BazziOnOff2.cs" />
+     <Compile Include="Assets\Scripts\Loby\CappiOnOff.cs" />
+     <Compile Include="Assets\Scripts\Loby\CappiOnOff2.cs" />
+     <Compile Include="Assets\Scripts\Loby\DaoOnOff.cs" />
+     <Compile Include="Assets\Scripts\Loby\DaoOnOff2.cs" />
+     <Compile Include="Assets\Scripts\Loby\FirstPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\Loby\Global.cs" />
+     <Compile Include="Assets\Scripts\Loby\MaridOnOff.cs" />
+     <Compile Include="Assets\Scripts\Loby\MaridOnOff2.cs" />
+     <Compile Include="Assets\Scripts\Loby\SecondPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\Loby\StartButton.cs" />
+     <Compile Include="Assets\Scripts\Logo\OpenLogo.cs" />
+     <Compile Include="Assets\Scripts\Opening\Logo.cs" />
+     <Compile Include="Assets\Scripts\Opening\Screen1.cs" />
+     <Compile Include="Assets\Scripts\Opening\The.cs" />
+     <Compile Include="Assets\Scripts\Opening\Touch.cs" />
+     <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
+     <None Include="Assets\LeanTween\ReadMe.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{40869ED3-3C48-9D3B-5F13-0587A1622B84}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
+      <Project>{40869ED3-3C48-9D3B-5F13-0587A1622B84}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -93,4 +102,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
