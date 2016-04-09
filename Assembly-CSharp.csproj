@@ -61,6 +61,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingEverything.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingPunch.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingRigidbodyCS.cs" />
+     <Compile Include="Assets\Scripts\CharControl\DaoAni.cs" />
      <Compile Include="Assets\Scripts\ForestMap\ChildCharSelect.cs" />
      <Compile Include="Assets\Scripts\ForestMap\DaoControl.cs" />
      <Compile Include="Assets\Scripts\ForestMap\MaridControl.cs" />

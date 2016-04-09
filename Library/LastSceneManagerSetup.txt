@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ForestMap.unity
+- path: Assets/ShipMap.unity
   isLoaded: 1
   isActive: 1
