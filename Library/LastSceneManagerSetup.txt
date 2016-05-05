@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShipMap.unity
+- path: Assets/Loby.unity
   isLoaded: 1
   isActive: 1

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class OpenLogo : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class OpenLogo : MonoBehaviour {
         print(EndTime - StartTime);
         if(EndTime - StartTime > 3f)
         {
-            Application.LoadLevel("Opening");
+            SceneManager.LoadScene("Opening");
         }
     }
 

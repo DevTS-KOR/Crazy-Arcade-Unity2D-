@@ -7,6 +7,7 @@ public class ChildCharSelect : MonoBehaviour {
 	public GameObject MaridObject;
 
     DaoControl PlayerDao_1;
+    DaoControl PlayerDao_2;
     MaridControl PlayerMarid_1;
     // Use this for initialization
     void Start () {
@@ -29,7 +30,17 @@ public class ChildCharSelect : MonoBehaviour {
             DaoObject.SetActive(false);
             MaridObject.SetActive(true);
         }
-	}
+
+        if (SecondPlayerInfo.strCharName == "Dao")
+        {
+            //Player1에 Hierarchy의 Dao오브젝트가 가지고 있는 DaoControl 스크립트를 가져온다.
+            PlayerDao_2 = GameObject.Find("Dao").GetComponent<DaoControl>();
+
+            //선택된 캐릭터 활성화 나머지 캐릭터 비활성화.
+            DaoObject.SetActive(true);
+            MaridObject.SetActive(false);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () 

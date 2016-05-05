@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour {
 
@@ -29,9 +29,9 @@ public class StartButton : MonoBehaviour {
 	IEnumerator delayTime(float fSec)
 	{
 		yield return new WaitForSeconds (fSec);
-        
+
         //2초가 지나면 다시 실행되며 ForestMap 씬으로 이동한다.
-		Application.LoadLevel ("ForestMap");
+        SceneManager.LoadScene("ShipMap");
 	}
 
 }

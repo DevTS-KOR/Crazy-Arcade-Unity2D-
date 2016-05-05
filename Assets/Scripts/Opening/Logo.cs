@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Logo : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class Logo : MonoBehaviour
 
     void Complete()
     {
-        Application.LoadLevel("Loby");
+        SceneManager.LoadScene("Loby");
     }
 }
 
