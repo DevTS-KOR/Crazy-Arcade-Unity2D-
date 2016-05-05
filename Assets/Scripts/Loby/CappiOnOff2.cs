@@ -57,7 +57,7 @@ public class CappiOnOff2 : MonoBehaviour {
             Global.SecondPlayer = true;
 
             SecondPlayerInfo.strCharName = "Cappi";
-            SecondPlayerInfo.fSpeed = 0.08f;
+            SecondPlayerInfo.fSpeed = 3.0f;
         }
 
     }

@@ -58,7 +58,7 @@ public class DaoOnOff : MonoBehaviour {
 			Global.FirstPlayer = true;
 
 			FirstPlayerInfo.strCharName = "Dao";
-			FirstPlayerInfo.fSpeed = 0.05f;
+			FirstPlayerInfo.fSpeed = 4.0f;
 		}
 
     }

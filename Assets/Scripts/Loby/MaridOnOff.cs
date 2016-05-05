@@ -56,7 +56,7 @@ public class MaridOnOff : MonoBehaviour {
 			Global.FirstPlayer = true;
 
 			FirstPlayerInfo.strCharName = "Marid";
-			FirstPlayerInfo.fSpeed = 0.04f;
+			FirstPlayerInfo.fSpeed = 3.5f;
 		}
 
 

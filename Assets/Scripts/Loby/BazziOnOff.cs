@@ -6,7 +6,7 @@ public class BazziOnOff : MonoBehaviour {
     public GameObject BazziActive;
     public AudioClip ClickSound;
     private AudioSource ClickSource = null;
-
+    public SpriteRenderer aaa;
     //외부 스크립트를 가져온다.
     private MaridOnOff GetMarid;
     private DaoOnOff GetDao;
@@ -16,7 +16,6 @@ public class BazziOnOff : MonoBehaviour {
     {
         BazziActive.SetActive(false);
         ClickSource = GetComponent<AudioSource>();
-
     }
 
     public void BazziSetActive()
@@ -57,7 +56,7 @@ public class BazziOnOff : MonoBehaviour {
             Global.FirstPlayer = true;
 
             FirstPlayerInfo.strCharName = "Bazzi";
-            FirstPlayerInfo.fSpeed = 0.08f;
+            FirstPlayerInfo.fSpeed = 5.0f;
         }
 
     }

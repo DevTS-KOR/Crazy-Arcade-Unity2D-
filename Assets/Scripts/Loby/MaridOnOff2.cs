@@ -56,7 +56,7 @@ public class MaridOnOff2 : MonoBehaviour {
 			Global.SecondPlayer = true;
 
             SecondPlayerInfo.strCharName = "Marid";
-            SecondPlayerInfo.fSpeed = 0.04f;
+            SecondPlayerInfo.fSpeed = 3.5f;
 		}
 
 

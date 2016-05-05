@@ -61,7 +61,10 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingEverything.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingPunch.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingRigidbodyCS.cs" />
-     <Compile Include="Assets\Scripts\CharControl\DaoAni.cs" />
+     <Compile Include="Assets\Scripts\CharControl\FirstAnimation.cs" />
+     <Compile Include="Assets\Scripts\CharControl\FirstController.cs" />
+     <Compile Include="Assets\Scripts\CharControl\SecondAnimation.cs" />
+     <Compile Include="Assets\Scripts\CharControl\SecondController.cs" />
      <Compile Include="Assets\Scripts\Loby\BazziOnOff.cs" />
      <Compile Include="Assets\Scripts\Loby\BazziOnOff2.cs" />
      <Compile Include="Assets\Scripts\Loby\CappiOnOff.cs" />
@@ -79,9 +82,6 @@
      <Compile Include="Assets\Scripts\Opening\Screen1.cs" />
      <Compile Include="Assets\Scripts\Opening\The.cs" />
      <Compile Include="Assets\Scripts\Opening\Touch.cs" />
-     <Compile Include="Assets\Scripts\ShipMap\ChildCharSelect.cs" />
-     <Compile Include="Assets\Scripts\ShipMap\DaoControl.cs" />
-     <Compile Include="Assets\Scripts\ShipMap\MaridControl.cs" />
      <None Include="Assets\LeanTween\Examples\Shader\2dUnlitWithFade.shader" />
      <None Include="Assets\LeanTween\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">

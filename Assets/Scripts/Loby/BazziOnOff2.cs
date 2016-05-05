@@ -57,7 +57,7 @@ public class BazziOnOff2 : MonoBehaviour {
             Global.SecondPlayer = true;
 
             SecondPlayerInfo.strCharName = "Bazzi";
-            SecondPlayerInfo.fSpeed = 0.08f;
+            SecondPlayerInfo.fSpeed = 5.0f;
         }
 
     }
