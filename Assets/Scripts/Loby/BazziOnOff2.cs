@@ -58,6 +58,8 @@ public class BazziOnOff2 : MonoBehaviour {
 
             SecondPlayerInfo.strCharName = "Bazzi";
             SecondPlayerInfo.fSpeed = 5.0f;
+            SecondPlayerInfo.iBubbleCount = 1;
+            SecondPlayerInfo.iBubbleLengthCount = 1;
         }
 
     }

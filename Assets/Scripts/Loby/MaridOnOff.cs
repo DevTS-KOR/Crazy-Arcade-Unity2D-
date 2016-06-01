@@ -57,7 +57,9 @@ public class MaridOnOff : MonoBehaviour {
 
 			FirstPlayerInfo.strCharName = "Marid";
 			FirstPlayerInfo.fSpeed = 3.5f;
-		}
+            FirstPlayerInfo.iBubbleCount = 2;
+            FirstPlayerInfo.iBubbleLengthCount = 1;
+        }
 
 
     }

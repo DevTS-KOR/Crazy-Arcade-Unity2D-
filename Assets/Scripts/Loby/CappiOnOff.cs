@@ -58,6 +58,8 @@ public class CappiOnOff : MonoBehaviour {
 
             FirstPlayerInfo.strCharName = "Cappi";
             FirstPlayerInfo.fSpeed = 3.0f;
+            FirstPlayerInfo.iBubbleCount = 1;
+            FirstPlayerInfo.iBubbleLengthCount = 2;
         }
 
     }

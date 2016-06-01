@@ -24,24 +24,28 @@ public class FirstController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetKey (KeyCode.F)) 
-		{
+
+        if (Input.GetKey(KeyCode.F))
+        {
             transform.Translate(Vector3.left * FirstPlayerInfo.fSpeed * Time.deltaTime);
         }
 
-		else if (Input.GetKey (KeyCode.H)) 
-		{
+        else if (Input.GetKey(KeyCode.H))
+        {
             transform.Translate(Vector3.right * FirstPlayerInfo.fSpeed * Time.deltaTime);
         }
 
-		else if (Input.GetKey (KeyCode.T)) 
-		{
+        else if (Input.GetKey(KeyCode.T))
+        {
             transform.Translate(Vector3.up * FirstPlayerInfo.fSpeed * Time.deltaTime);
         }
 
-		else if (Input.GetKey (KeyCode.G))
-		{
+        else if (Input.GetKey(KeyCode.G))
+        {
             transform.Translate(Vector3.down * FirstPlayerInfo.fSpeed * Time.deltaTime);
         }
+
+       
 	}
+
 }

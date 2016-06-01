@@ -59,7 +59,9 @@ public class DaoOnOff : MonoBehaviour {
 
 			FirstPlayerInfo.strCharName = "Dao";
 			FirstPlayerInfo.fSpeed = 4.0f;
-		}
+            FirstPlayerInfo.iBubbleCount = 1;
+            FirstPlayerInfo.iBubbleLengthCount = 1;
+        }
 
     }
 }
